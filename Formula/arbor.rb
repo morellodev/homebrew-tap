@@ -1,26 +1,26 @@
 class Arbor < Formula
   desc "A CLI for managing git worktrees"
   homepage "https://github.com/morellodev/arbor"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/morellodev/arbor/releases/download/v0.3.0/arbor-aarch64-apple-darwin.tar.gz"
-      sha256 "c4f54da35f680e6e22c9a3ba557e6700bf8563f578ed186b44ac22b6b3c5842f"
+      url "https://github.com/morellodev/arbor/releases/download/v0.3.1/arbor-aarch64-apple-darwin.tar.gz"
+      sha256 "f4b3db00a607b0e109395ce78a1fca1587bd4ec5e02d002f10fb063e2e84d12f"
     else
-      url "https://github.com/morellodev/arbor/releases/download/v0.3.0/arbor-x86_64-apple-darwin.tar.gz"
-      sha256 "18a15db0e2caccd669e0508b64519011b5094d8f9cee2bf89fb9d19cf70366b8"
+      url "https://github.com/morellodev/arbor/releases/download/v0.3.1/arbor-x86_64-apple-darwin.tar.gz"
+      sha256 "5a32d583242c05ae3b935c847678bfcd3bee930572057d40a6887c7f38d1dcc9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/morellodev/arbor/releases/download/v0.3.0/arbor-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b0322eaa2c5521dea48074b2ef06c3891951195ee87cf0b94a87894f9146a397"
+      url "https://github.com/morellodev/arbor/releases/download/v0.3.1/arbor-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "04e301b3536a05e7c4a68944ae4ef424962c7440f208734fb9c20fab8589c6af"
     else
-      url "https://github.com/morellodev/arbor/releases/download/v0.3.0/arbor-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "76eaeca2a22c397771cde3ed34037dbfe0ba61007469bfa8747a747bd67b3a73"
+      url "https://github.com/morellodev/arbor/releases/download/v0.3.1/arbor-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "abd81c6b2ee1da6d2f5c934ac2b8ad952ceaed994a8d68572e4217d4882c27fc"
     end
   end
 
