@@ -1,28 +1,28 @@
 class Tmaps < Formula
   desc "Terminal OpenStreetMap maps with a route planner and a JSON CLI"
   homepage "https://github.com/morellodev/tmaps"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/morellodev/tmaps/releases/download/v0.1.0/tmaps-aarch64-apple-darwin.tar.gz"
-      sha256 "45a475aff3fbfb1e399746143952b909e85e174b9a233b8d7b002096124ea4c2"
+      url "https://github.com/morellodev/tmaps/releases/download/v0.2.0/tmaps-aarch64-apple-darwin.tar.gz"
+      sha256 "a44e386407485f1821c570cc8a0b3485a272803cf3814da5a343110ba44d56e1"
     end
     on_intel do
-      url "https://github.com/morellodev/tmaps/releases/download/v0.1.0/tmaps-x86_64-apple-darwin.tar.gz"
-      sha256 "bf4d2911e25285dcf7500cc194cd50dad0491e5e9f7eb1238cbcf19b27899a85"
+      url "https://github.com/morellodev/tmaps/releases/download/v0.2.0/tmaps-x86_64-apple-darwin.tar.gz"
+      sha256 "6a37fd72a2dc6c7ac6ac8f5edcf2d45c8d2218ddad072fcd23191b1ae6bbebc0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/morellodev/tmaps/releases/download/v0.1.0/tmaps-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "dc1b1d2d963dbcf9b9232c0d0dd390d5562eee0becb83e448c83a1a6bd2fe493"
+      url "https://github.com/morellodev/tmaps/releases/download/v0.2.0/tmaps-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "50954997b6aa4110ec14ee05b3f063512712f13b87eb8e69f69802e82a9e1efe"
     end
     on_intel do
-      url "https://github.com/morellodev/tmaps/releases/download/v0.1.0/tmaps-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2a1e9d7e7df3a05da533c79ffbd557150a21395f31bc588f1cf9c3bd95d925f7"
+      url "https://github.com/morellodev/tmaps/releases/download/v0.2.0/tmaps-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "965446d5c9bb74f357937e1efb10e0c57c24bf14998eb8c48ce4d1941965c814"
     end
   end
 
