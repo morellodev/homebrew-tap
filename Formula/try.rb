@@ -1,26 +1,26 @@
 class Try < Formula
   desc "Ephemeral workspace manager for quick experiments"
   homepage "https://github.com/morellodev/try-rs"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/morellodev/try-rs/releases/download/v0.1.0/try-aarch64-apple-darwin.tar.gz"
-      sha256 "eac0a016203bfe2a460edea8e38a4bd63e210933c704a980f2c4cf0173dfcd13"
+      url "https://github.com/morellodev/try-rs/releases/download/v0.1.1/try-aarch64-apple-darwin.tar.gz"
+      sha256 "c090d1a73c7f48a27f337864b132054c3125197ae90f7c94a9957a980e455c8a"
     else
-      url "https://github.com/morellodev/try-rs/releases/download/v0.1.0/try-x86_64-apple-darwin.tar.gz"
-      sha256 "f6742039b187a0fe1f85c906406515d3e089601b5800892c0e0743458f7c8827"
+      url "https://github.com/morellodev/try-rs/releases/download/v0.1.1/try-x86_64-apple-darwin.tar.gz"
+      sha256 "22990e42dd4705b11184079ca8f691505f6c980980efe841c8e0538cc2c1ec72"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/morellodev/try-rs/releases/download/v0.1.0/try-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fc4729c4b4139013fbd586aacf1f70882b36fd232e12548721b223d370709d96"
+      url "https://github.com/morellodev/try-rs/releases/download/v0.1.1/try-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a716182eadb864b3face7268f59bffddebacec9e2cb1abb8efeed75770832705"
     else
-      url "https://github.com/morellodev/try-rs/releases/download/v0.1.0/try-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4cb7aee8536c579a840c4628ce9baeb5dabd889048fd3c917d73da23acaf57d6"
+      url "https://github.com/morellodev/try-rs/releases/download/v0.1.1/try-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c478e91fc5fbb39e3de276fcbb387aea6086c1d8c9ab97fd1cba9f6281aefefb"
     end
   end
 
